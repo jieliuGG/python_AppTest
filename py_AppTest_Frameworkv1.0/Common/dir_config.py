@@ -22,5 +22,8 @@ reports_dir = os.path.join(base_path,'reports')
 # 截图路径
 screenshots_dir = os.path.join(base_path,'screenshots')
 
+# desired_caps.yaml文件路径
+Desired_Caps_dir = os.path.join(base_path,'Desired_Caps')
 if __name__ == '__main__':
-    print(screenshots_dir)
+    fs = open(Desired_Caps_dir + '/desired_caps.yaml')
+    print(fs)
