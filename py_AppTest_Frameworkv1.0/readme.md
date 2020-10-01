@@ -53,7 +53,7 @@
             第三步：若设备池不为空，则启用多个线程，来执行app自动化测试。
             
             
-run.py
+run.py文件
 ```
 import unittest
 
