@@ -1,0 +1,9 @@
+# 字典形式
+platformName: Android
+platformVersion: 7.1
+deviceName: 127.0.0.1:62001
+# deviceName: Emulator
+appPackage: com.android.settings
+appActivity: .Settings
+noReset: True
+automationName: UiAutomator2
